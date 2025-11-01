@@ -4183,6 +4183,7 @@ import {
   Clock, Shield, DollarSign, Globe, Lightbulb, Award,
   Mail, Phone, Building, MessageSquare, Send, CheckCircle2, AlertCircle
 } from 'lucide-react';
+import ChatBot from './ChatBot';
 
 // Mouse Follower Component (Desktop Only)
 const MouseFollower = () => {
@@ -5906,9 +5907,10 @@ const SuperBusinessApp = () => {
           </div>
         </div>
       </footer>
+      <ChatBot/>
 
       {/* Floating Contact Button - MOBILE RESPONSIVE */}
-      <motion.button
+      {/* <motion.button
         onClick={() => setShowContactForm(true)}
         className={`fixed bottom-6 right-6 sm:bottom-8 sm:right-8 z-50 w-14 h-14 sm:w-16 sm:h-16 rounded-full shadow-2xl flex items-center justify-center ${
           darkMode 
@@ -5929,10 +5931,10 @@ const SuperBusinessApp = () => {
         }}
       >
         <MessageSquare className="w-6 h-6 sm:w-7 sm:h-7" />
-      </motion.button>
+      </motion.button> */}
      
       {/* Contact Form Modal - FULLY MOBILE RESPONSIVE */}
-      {showContactForm && (
+      {/* {showContactForm && (
         <motion.div 
           initial={{ opacity: 0 }} 
           animate={{ opacity: 1 }} 
@@ -6239,7 +6241,7 @@ const SuperBusinessApp = () => {
             </div>
           </motion.div>
         </motion.div>
-      )}
+      )} */}
     </div>
   );
 };
