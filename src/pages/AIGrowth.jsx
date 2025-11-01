@@ -320,6 +320,29 @@
 // };
 
 // export default AIGrowth;
+/// blue colour scheme version/////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 import React, { useState, useEffect } from 'react';

@@ -320,6 +320,21 @@
 // };
 
 // export default InvestorConnect;
+/// blue colour scheme version/////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
