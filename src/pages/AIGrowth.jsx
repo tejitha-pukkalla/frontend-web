@@ -658,7 +658,7 @@ const AIGrowth = () => {
       }`}>
         <div className="max-w-7xl mx-auto text-center">
           <p className={`text-sm ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
-            © 2025 BGT. All rights reserved.
+            © 2025 B2LINK . All rights reserved.
           </p>
         </div>
       </footer>

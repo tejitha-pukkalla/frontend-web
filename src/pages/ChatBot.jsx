@@ -25,7 +25,7 @@ const ChatBot = () => {
   // --- Quick Action Buttons Definition ---
   const initialQuickActions = [
     { label: "Pricing & Plans", action: "Tell me about your pricing plans." },
-    { label: "Platform Features", action: "What are BGT's main features?" },
+    { label: "Platform Features", action: "What are B2LINK's main features?" },
     { label: "Contact Support", action: "I need to contact support." },
   ];
   const [showQuickActions, setShowQuickActions] = useState(false);
@@ -39,7 +39,7 @@ const ChatBot = () => {
       const typingTimer = setTimeout(() => {
         setIsBotTyping(false);
         setMessages([
-          { id: 1, text: "Welcome to BGT! 👋 How can I assist you with our platform features or pricing?", isUser: false },
+          { id: 1, text: "Welcome to B2LINK! 👋 How can I assist you with our platform features or pricing?", isUser: false },
         ]);
         setShowQuickActions(true); // Show quick actions after the first message
       }, 1500);
@@ -61,7 +61,7 @@ const ChatBot = () => {
     if (userText.includes("pricing")) {
       botResponse += "Our pricing details are available right above in the 'Pillars' section, starting with a basic tier. Which plan are you interested in?";
     } else if (userText.includes("features")) {
-      botResponse += "BGT offers Lead Hub access, Unlimited AI Queries (Professional plan), and Custom Integrations. Can I help you compare plans?";
+      botResponse += "B2LINK offers Lead Hub access, Unlimited AI Queries (Professional plan), and Custom Integrations. Can I help you compare plans?";
     } else if (userText.includes("support") || userText.includes("contact")) {
       botResponse += "Our priority support team is ready to help! Please leave your email address, and we will create a dedicated ticket for you.";
     } else {
@@ -136,7 +136,7 @@ const ChatBot = () => {
           <div className="flex justify-between items-center border-b border-gray-700 pb-2 mb-3">
             <h2 className="text-base sm:text-lg md:text-xl font-bold text-white">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-orange-500">
-                🤖 BGT AI Assistant
+                🤖 B2LINK AI Assistant
               </span>
             </h2>
             <button
